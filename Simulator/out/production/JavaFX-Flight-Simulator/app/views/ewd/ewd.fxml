@@ -1,0 +1,62 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<GridPane
+        fx:controller="app.views.ewd.EWDController"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:id="ewd"
+        styleClass="ewd">
+
+        <rowConstraints>
+            <RowConstraints percentHeight="35" />
+            <RowConstraints percentHeight="35" />
+            <RowConstraints percentHeight="20" />
+            <RowConstraints percentHeight="10" />
+        </rowConstraints>
+        <columnConstraints>
+            <ColumnConstraints percentWidth="40"/>
+            <ColumnConstraints percentWidth="20"/>
+            <ColumnConstraints percentWidth="40"/>
+        </columnConstraints>
+
+        <HBox fx:id="n11Container" GridPane.rowIndex="0" GridPane.columnIndex="0">
+
+        </HBox>
+        <VBox fx:id="n1UnitContainer" GridPane.rowIndex="0" GridPane.columnIndex="1" alignment="CENTER">
+            <Label styleClass="unit">N1</Label>
+            <Label styleClass="unit">%</Label>
+        </VBox>
+        <HBox fx:id="n12Container" GridPane.rowIndex="0" GridPane.columnIndex="2">
+
+        </HBox>
+
+        <HBox fx:id="egt1Container" GridPane.rowIndex="1" GridPane.columnIndex="0">
+
+        </HBox>
+        <VBox fx:id="egtUnitContainer" GridPane.rowIndex="1" GridPane.columnIndex="1" alignment="CENTER">
+            <Label styleClass="unit">EGT</Label>
+            <Label styleClass="unit">°C</Label>
+        </VBox>
+        <HBox fx:id="egt2Container" GridPane.rowIndex="1" GridPane.columnIndex="2">
+
+        </HBox>
+
+        <HBox fx:id="ffContainer" GridPane.rowIndex="2" GridPane.columnIndex="1">
+
+        </HBox>
+
+        <VBox fx:id="WarningsDisplay" GridPane.rowIndex="3" GridPane.columnIndex="1">
+            <Label fx:id="n1WarningLabel"/>
+            <Label fx:id="egtWarningLabel"/>
+        </VBox>
+
+    <!--Styles-->
+    <stylesheets>
+        <URL value="@ewd.css" />
+    </stylesheets>
+</GridPane>

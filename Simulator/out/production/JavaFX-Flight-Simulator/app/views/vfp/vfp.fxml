@@ -1,0 +1,19 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.StackPane?>
+<StackPane
+        fx:controller="app.views.vfp.VFPController"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:id="vfp"
+        styleClass="vfp">
+
+        <HBox fx:id="trajectoryContainer" alignment="CENTER">
+
+        </HBox>
+
+    <!--Styles-->
+    <stylesheets>
+        <URL value="@vfp.css" />
+    </stylesheets>
+</StackPane>

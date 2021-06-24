@@ -1,0 +1,14 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<BorderPane
+        fx:controller="app.views.nd.NDController"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:id="nd"
+        styleClass="pfd">
+
+    <!--Styles-->
+    <stylesheets>
+        <URL value="@nd.css" />
+    </stylesheets>
+</BorderPane>

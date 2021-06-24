@@ -1,0 +1,19 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.StackPane?>
+<StackPane
+        fx:controller="app.views.radar.RadarController"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:id="radar"
+        styleClass="radar">
+
+        <VBox fx:id="airCompassContainer" alignment="CENTER">
+
+        </VBox>
+
+    <!--Styles-->
+    <stylesheets>
+        <URL value="@radar.css" />
+    </stylesheets>
+</StackPane>

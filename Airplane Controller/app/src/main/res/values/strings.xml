@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">flight controller</string>
+    <string name="yaw_left">yaw left</string>
+    <string name="yaw_right">yaw right</string>
+    <string name="roll_left">roll_left</string>
+    <string name="roll_right">roll_right</string>
+    <string name="pitch_up">pitch_up</string>
+    <string name="pitch_down">pitch_down</string>
+    <string name="accelerate">accelerate</string>
+    <string name="decelerate">decelerate</string>
+    <string name="go_up">go_up</string>
+    <string name="go_down">go_down</string>
+</resources>

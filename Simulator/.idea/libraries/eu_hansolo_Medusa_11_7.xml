@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="eu.hansolo:Medusa:11.7" type="repository">
+    <properties maven-id="eu.hansolo:Medusa:11.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/hansolo/Medusa/11.7/Medusa-11.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.1/javafx-graphics-11.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.1/javafx-graphics-11.0.1-win.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11.0.1/javafx-base-11.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11.0.1/javafx-base-11.0.1-win.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.1/javafx-controls-11.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.1/javafx-controls-11.0.1-win.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

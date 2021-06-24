@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/roll_left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/roll_left"
+        android:contentDescription="@string/roll_left" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/roll_right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/roll_right"
+        android:contentDescription="@string/roll_right" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pitch_up_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/pitch_up"
+        android:contentDescription="@string/pitch_up" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pitch_down_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/pitch_down"
+        android:contentDescription="@string/pitch_down" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/accelerate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/accelerate"
+        android:contentDescription="@string/accelerate" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/decelerate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/decelerate"
+        android:contentDescription="@string/decelerate" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+

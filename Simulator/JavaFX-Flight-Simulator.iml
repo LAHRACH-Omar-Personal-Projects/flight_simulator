@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Python" name="Python">
+      <configuration sdkName="Python 3.8 (JavaFX-Flight-Simulator)" />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="natives" level="project" />
+    <orderEntry type="library" name="eu.hansolo:Medusa:11.7" level="project" />
+    <orderEntry type="library" name="jython:jython:2.1" level="project" />
+    <orderEntry type="library" name="jars" level="project" />
+    <orderEntry type="library" name="eu.hansolo.fx:charts:11.7" level="project" />
+    <orderEntry type="library" name="eu.hansolo:tilesfx:1.4.6" level="project" />
+    <orderEntry type="library" name="Python 3.8 (JavaFX-Flight-Simulator) interpreter library" level="application" />
+  </component>
+</module>

@@ -1,0 +1,29 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<BorderPane
+        fx:controller="app.views.pfd.PFDController"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:id="pfd"
+        styleClass="pfd">
+    <left>
+        <VBox fx:id="airspeedIndicatorContainer">
+
+        </VBox>
+    </left>
+    <center>
+        <VBox fx:id="horizonContainer">
+
+        </VBox>
+    </center>
+    <right>
+        <VBox fx:id="altimeterContainer">
+
+        </VBox>
+    </right>
+
+    <!--Styles-->
+    <stylesheets>
+        <URL value="@pfd.css" />
+    </stylesheets>
+</BorderPane>

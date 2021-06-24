@@ -1,0 +1,62 @@
+package app.components.pfdComponents;
+
+import app.views.env.entities.Airplane;
+import eu.hansolo.medusa.*;
+import javafx.scene.paint.Color;
+
+public class Altimeter {
+    private final Gauge gauge;
+
+    public Altimeter() {
+        gauge = GaugeBuilder.create()
+                .skinType(Gauge.SkinType.LINEAR)
+                .foregroundBaseColor(Color.WHITE)
+                .title("Altitude")
+                .titleColor(Color.WHITE)
+                .subTitle("")
+                .subTitleColor(Color.WHITE)
+                .unit("m")
+                .unitColor(Color.WHITE)
+                .valueColor(Color.WHITE)
+                .decimals(0)
+                .minValue(Airplane.MIN_ALTITUDE)
+                .maxValue(Airplane.MAX_ALTITUDE)
+                .angleRange(280)
+                .barColor(Color.GREEN)
+                .tickLabelDecimals(0)
+                .tickLabelLocation(TickLabelLocation.INSIDE)
+                .tickLabelOrientation(TickLabelOrientation.HORIZONTAL)
+                .onlyFirstAndLastTickLabelVisible(false)
+                .majorTickMarksVisible(true)
+                .majorTickMarkType(TickMarkType.LINE)
+                .majorTickMarkColor(Color.WHITE)
+                .mediumTickMarksVisible(true)
+                .mediumTickMarkType(TickMarkType.LINE)
+                .mediumTickMarkColor(Color.WHITE)
+                .minorTickMarksVisible(true)
+                .minorTickMarkType(TickMarkType.LINE)
+                .minorTickMarkColor(Color.WHITE)
+                .ledType(Gauge.LedType.STANDARD)
+                .ledBlinking(false)
+                .needleShape(Gauge.NeedleShape.ANGLED)
+                .needleSize(Gauge.NeedleSize.STANDARD)
+                .needleColor(Color.CRIMSON)
+                .startFromZero(false)
+                .returnToZero(false)
+                .knobType(Gauge.KnobType.STANDARD)
+                .knobColor(Color.LIGHTGRAY)
+                .interactive(false)
+                .ledOn(true)
+                .ledVisible(false)
+                .thresholdVisible(false)
+                .checkThreshold(false)
+                .checkSectionsForValue(false)
+                .markersVisible(false)
+                .animated(false)
+                .build();
+    }
+
+    public Gauge getGauge() {
+        return gauge;
+    }
+}
